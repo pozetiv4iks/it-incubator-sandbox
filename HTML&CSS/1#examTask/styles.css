@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#survey-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+select,
+textarea,
+button {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
